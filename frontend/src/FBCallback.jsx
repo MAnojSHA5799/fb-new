@@ -14,7 +14,7 @@ export default function FBCallback() {
       const res = await axios.get(
         `https://fb-new.onrender.com/auth/facebook?code=${code}`
       );
-
+console.log(res.data)
       setProfile(res.data);
     }
     getToken();
