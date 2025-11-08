@@ -12,7 +12,7 @@ export default function FBCallback() {
       if (!code) return;
 
       const res = await axios.get(
-        `http://localhost:4000/auth/facebook?code=${code}`
+        `https://fb-new.onrender.com/auth/facebook?code=${code}`
       );
 
       setProfile(res.data);
