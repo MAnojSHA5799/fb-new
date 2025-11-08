@@ -9,7 +9,7 @@ app.use(cors());
 
 const appId = process.env.FB_APP_ID;
 const appSecret = process.env.FB_APP_SECRET;
-const redirectUri = "http://localhost:3000/auth/facebook/callback";
+const redirectUri = "https://fb-new-six.vercel.app/auth/facebook/callback";
 
 app.get("/auth/facebook", async (req, res) => {
   try {
