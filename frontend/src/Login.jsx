@@ -1,5 +1,5 @@
 export default function Login() {
-    const appId = "2008477996672023";
+    const appId = "2489693924757448";
     const redirectUri = "https://fb-new-six.vercel.app/auth/facebook/callback";
     const scope = "email,public_profile";
   
